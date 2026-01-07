@@ -39,13 +39,9 @@ SWSS-CD introduces a **stability-weighted self-supervised contrastive framework*
 
 ```
 SWSSCD/
-├── configs/                # Dataset-specific configuration files
 ├── models/                 # Model definitions
-├── pretrained/             # Pre-trained model weights
-├── datasets/               # Dataset loaders and utilities
 ├── utils/                  # Metrics, visualization, and helper functions
 ├── test.py                 # Main testing script
-├── requirements.txt        # Python dependencies
 └── README.md
 ```
 
@@ -56,15 +52,15 @@ SWSSCD/
 ```bash
 conda create -n swsscd python=3.9
 conda activate swsscd
-pip install -r requirements.txt
 ```
 
 ---
 
 ## Datasets
 
-The framework is evaluated on public hyperspectral change detection benchmarks such as **Farmland**, **Hermiston**, and **Bay/River**.
+The framework is evaluated on public hyperspectral change detection benchmarks such as Farmland, Hermiston, and River.
 Please follow the original dataset providers’ instructions to download the data and place them in the appropriate directories.
+For the Farmland dataset, please download the Farmland.mat file and place it in the data/ directory. Note that the Farmland.mat file used in our experiments has a size of 25.3 MB; please ensure that the downloaded file matches this size, otherwise loading or evaluation errors may occur.
 
 ---
 
