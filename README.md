@@ -87,11 +87,11 @@ Experiments demonstrate that SWSS-CD achieves competitive or superior performanc
 ## Citation
 
 ```bibtex
-@article{SWSSCD2025,
-  title   = {Stability-Weighted Self-Supervised Contrastive Learning for Hyperspectral Change Detection},
+@article{SWSSCD2026,
+  title   = {SWSS-CD: Stability-Weighted Self-Supervised Contrastive Learning for Hyperspectral Change Detection},
   author  = {Anonymous},
   journal = {IEEE Transactions on Image Processing},
-  year    = {2025}
+  year    = {2026}
 }
 ```
 
