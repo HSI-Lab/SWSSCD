@@ -1,0 +1,4 @@
+[Encoder] GFLOPs_per_forward=2.064384
+[Encoder] Params_M=0.132096
+[Sample 000] OA=0.980190 F1=0.966076 Precision=0.959970 Recall=0.972260 IoU=0.934378 Th=2.237080 Time=0.001131s
+[Test Summary] OA=0.980190 F1=0.966076 Precision=0.959970 Recall=0.972260 IoU=0.934378
