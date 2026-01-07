@@ -71,7 +71,7 @@ Please follow the original dataset providers’ instructions to download the dat
 ## Testing with Pre-trained Models
 
 ```bash
-python test.py --config configs/farmland.yaml --pretrained pretrained/farmland.pth
+python test.py
 ```
 
 The generated change maps and quantitative metrics will be saved automatically.
