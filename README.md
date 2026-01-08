@@ -18,7 +18,6 @@ SWSS-CD introduces a **stability-weighted self-supervised contrastive framework*
 - No change labels or hard pseudo labels
 - No auxiliary reconstruction or segmentation branches
 - Classifier-free and lightweight inference
-- Strong cross-dataset generalization
 
 ---
 
