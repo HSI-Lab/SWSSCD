@@ -1,9 +1,9 @@
 
-# SWSS-CD: Stability-Weighted Self-Supervised Change Detection for Hyperspectral Images
+# SWSS-CD: Stability-Aware Self-Supervised Learning for Hyperspectral Change Detection
 
 This repository provides the **testing code and pre-trained models** for the paper:
 
-> **SWSS-CD: Stability-Weighted Self-Supervised Contrastive Learning for Hyperspectral Change Detection**  
+> **SWSS-CD: Stability-Aware Self-Supervised Learning for Hyperspectral Change Detection**  
 > *Under review at IEEE Transactions on Image Processing (TIP)*
 
 ---
@@ -11,7 +11,7 @@ This repository provides the **testing code and pre-trained models** for the pap
 ## Overview
 
 Hyperspectral change detection (HSI-CD) aims to identify meaningful land-cover changes from bi-temporal hyperspectral imagery without reliable pixel-level annotations.  
-SWSS-CD introduces a **stability-weighted self-supervised contrastive framework** that models spectral–temporal consistency as a continuous stability likelihood, enabling robust and label-free change detection across scenes.
+SWSS-CD introduces a **stability-aware self-supervised contrastive framework** that models spectral–temporal consistency as a continuous stability likelihood, enabling robust and label-free change detection across scenes.
 
 **Key characteristics:**
 - Fully unsupervised / self-supervised
@@ -26,7 +26,7 @@ SWSS-CD introduces a **stability-weighted self-supervised contrastive framework*
 - **Spectral Stability Modeling**  
   Cross-temporal spectral discrepancies are mapped to an exponential stability likelihood, providing a continuous and confidence-aware estimate of temporal stability.
 
-- **Stability-Weighted Contrastive Learning**  
+- **Stability-Aware Contrastive Learning**  
   A pull–push contrastive objective guided by stability likelihoods encourages compact representations for stable pixels and discriminative separation for changed ones.
 
 - **Representation-Driven Inference**  
@@ -83,7 +83,7 @@ Experiments demonstrate that SWSS-CD achieves competitive or superior performanc
 
 ```bibtex
 @article{SWSSCD2026,
-  title   = {SWSS-CD: Stability-Weighted Self-Supervised Contrastive Learning for Hyperspectral Change Detection},
+  title   = {SWSS-CD: Stability-Aware Self-Supervised Learning for Hyperspectral Change Detection},
   author  = {Anonymous},
   journal = {IEEE Transactions on Image Processing},
   year    = {2026}
