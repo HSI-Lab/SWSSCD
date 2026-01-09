@@ -4,7 +4,7 @@
 This repository provides the **testing code and pre-trained models** for the paper:
 
 > **SWSS-CD: Stability-Aware Self-Supervised Learning for Hyperspectral Change Detection**  
-> *Under review at IEEE Transactions on Image Processing (TIP)*
+> *Submitted to IEEE Transactions on Image Processing (TIP)*
 
 ---
 
