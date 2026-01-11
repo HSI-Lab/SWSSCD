@@ -59,7 +59,7 @@ conda activate swsscd
 
 The framework is evaluated on public hyperspectral change detection benchmarks such as Farmland, Hermiston, and River.
 Please follow the original dataset providers’ instructions to download the data and place them in the appropriate directories.
-For the Farmland dataset, please download the Farmland.mat file and place it in the data/ directory. The Farmland.mat file used in our experiments has a size of 25.3 MB; please ensure that the downloaded file matches this size, otherwise loading or evaluation errors may occur. The file can be downloaded from [Google Drive](#https://drive.google.com/file/d/11OCSfdg2_ddruH65Q-fBtAdVqv9P952b/view?usp=drive_link)
+For the Farmland dataset, please download the Farmland.mat file and place it in the data/ directory. The Farmland.mat file used in our experiments has a size of 25.3 MB; please ensure that the downloaded file matches this size, otherwise loading or evaluation errors may occur. The file can be downloaded from [Google Drive](https://drive.google.com/file/d/11OCSfdg2_ddruH65Q-fBtAdVqv9P952b/view?usp=drive_link)
 
 ---
 
