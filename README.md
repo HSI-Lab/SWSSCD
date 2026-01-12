@@ -40,7 +40,7 @@ SWSS-CD introduces a **stability-aware self-supervised contrastive framework** t
 SWSSCD/
 ├── models/                 # Model definitions
 ├── utils/                  # Metrics, visualization, and helper functions
-├── test.py                 # Main testing script
+├── test_cd.py                 # Main testing script
 └── README.md
 ```
 
@@ -66,7 +66,7 @@ For the Farmland dataset, please download the Farmland.mat file and place it in 
 ## Testing with Pre-trained Models
 
 ```bash
-python test.py
+python test_cd.py
 ```
 
 The generated change maps and quantitative metrics will be saved automatically.
